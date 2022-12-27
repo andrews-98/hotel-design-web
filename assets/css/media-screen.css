@@ -1,0 +1,147 @@
+@media screen and (max-width: 1115px) {
+    .header_logo {
+        font-size: 35px;
+    }
+
+    .nav {
+        font-size: 21px;
+    }
+
+    .nav_link {
+        margin: 0 10px;
+    }
+
+    .social_media ul {
+        font-size: 18px;
+
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_item {
+        padding-bottom: 5px;
+    }
+
+    .about_author{
+        align-items: flex-start;
+        text-align: start;
+    }
+    .author_inner{
+        width: 100%;
+        font-size: 21px;
+    }
+    .text p{
+        font-size: 19px;
+    }
+    .img_author {
+        padding-right: 0px;
+    }
+    .img_4 {
+        height: 500px;
+        padding-top: 120px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .nav_link {
+        margin: 0 10px;
+    }
+
+    .about_author{
+        align-items: flex-start;
+        text-align: start;
+    }
+    .author_inner{
+        width: 100%;
+        font-size: 21px;
+    }
+    .text p{
+        font-size: 18px;
+    }
+    .img_author {
+        padding-right: 0px;
+    }
+
+    .img_4 {
+        height: 400px;
+        padding-top: 100px;
+    }
+    .text p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header {
+        text-align: center;
+    }
+
+    .header_inner {
+        display: block;
+    }
+
+    .nav {
+        font-size: 21px;
+    }
+
+    .nav_link {
+        display: block;
+    }
+
+    .section_header {
+        font-size: 21px;
+    }
+
+    .about {
+        width: 100%;
+        margin: 0 auto;
+    }
+      
+    .about_img{
+        width: 250px;
+        padding-bottom: 5px;
+        margin: 0 auto;
+    }
+    .about_img img{
+        width:100%;
+        padding-bottom: 5px;
+    }
+    .about_author{
+        display: block;
+        text-align: start;
+    }
+    .author_inner{
+        width: 100%;
+        font-size: 18px;
+    }
+    .text p{
+        font-size: 16px;
+    }
+    .img_author {
+        padding-right: 0px;
+    }
+    .img_author img {
+        object-fit: cover;
+        object-position: center;
+    }
+    .img_4{
+        width: 100%;
+        padding-top: 50px;
+    }
+    .img_4 img{
+       object-fit: cover;
+       object-position: center;
+    }
+    .footer_content{
+        flex-direction: column;
+        font-size: 16px;
+        align-items: center;
+        text-align: center;
+    }
+    .footer_content button {
+        padding: 10px 35px;
+    }
+}
